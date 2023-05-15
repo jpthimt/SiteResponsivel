@@ -1,0 +1,27 @@
+div#interface2{
+	display: inline-block;
+	background-image: url('../imagens/dungeonwall.jpg');
+	background-repeat: initial;
+	background-size: 100%;
+	margin-left: 5%;
+	position: relative;
+	width: 90%;
+	border-top: 4px ridge #ffb000;
+    border-left: 4px groove #ffb000;
+    border-right: 4px ridge #ffb000;
+    border-bottom: 4px groove #ffb000;
+    box-shadow: inset 0px 0px 5px 3px rgba(1,1,1,0.3);
+}
+div#interface2 div#row{
+    display: inline-flex;
+    align-items: center;
+    
+}
+div#interface2 div#imagem{
+	padding: 5% auto;
+    margin: 2% auto;
+}
+div#interface2 div#row section#meio{
+    padding-bottom: 1vw; 
+    padding-top: 1vw;  
+}

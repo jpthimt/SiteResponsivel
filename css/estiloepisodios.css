@@ -1,0 +1,51 @@
+div#interface2{
+	display: inline-block;
+	background-image: url('../imagens/dungeonwall.jpg');
+	background-repeat: initial;
+	background-size: 100% ;
+	margin-left: 5%;
+	position: relative;
+	width: 90%;
+	border-top: 4px ridge #ffb000;
+    border-left: 4px groove #ffb000;
+    border-right: 4px ridge #ffb000;
+    border-bottom: 4px groove #ffb000;
+    box-shadow: inset 0px 0px 5px 3px rgba(1,1,1,0.3);
+}
+div#interface2 div#row{
+    display: block;
+}
+
+div#interface2 div#row section#meio{
+    padding-bottom: 1vw; 
+    padding-top: 1vw;
+    width: 90%;
+}
+div#interface2 section#meio fieldset#temporada{
+	border: 0px solid;
+    margin-top: 1% ;
+    padding-top: 0%;
+}
+div#interface2 section#meio fieldset#temporada legend{
+	font-family: 'Skranji', cursive;
+	font-size: 2vw;
+	text-align: center;
+}
+div#interface2 section#meio fieldset#episodio{
+	border: 0px solid;
+    margin-top: 1% ;
+    padding-top: 0%;
+}
+div#interface2 section#meio fieldset#episodio legend{
+	font-family: 'Skranji', cursive;
+	font-size: 1.5vw;
+	text-align: center;
+}
+div#interface2 section#meio fieldset#episodio a{
+    text-decoration: none;
+    color: black;
+}
+div#interface2 section#meio p#descricao{
+    font-size: 1vw;
+    font-family: 'Dungeon', cursive;
+}

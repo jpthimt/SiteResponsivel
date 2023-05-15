@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Skranji:400,700');
+
+html{
+   scroll-behavior: smooth;
+}
+body{
+	background-image: url('../imagens/ceu.jpg');
+	background-repeat:unset;
+	background-size: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+div#interface1{
+	margin: 0px auto;
+	position: relative;
+	width: 100%;
+	padding: 0px;
+    text-align: center;
+}
+div#interface1 header#titulo img#logo{
+	margin: auto;
+    width: 30vw; 
+}
+div#interface1 header#titulo nav#menu{
+	display:block;
+    margin-top: -3%;
+}
+div#interface1 header#titulo nav#menu ol li{
+    display: inline-flex;
+	margin: 10px auto;
+    width: 250px;
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    padding: 10px;
+    background: radial-gradient(circle, #8b0000, #8b0000);
+    border-top: 4px ridge #ffb000;
+    border-left: 4px groove #ffb000;
+    border-right: 4px ridge #ffb000;
+    border-bottom: 4px groove #ffb000;
+    box-shadow: inset 0px 0px 5px 3px rgba(1,1,1,0.3);
+}
+div#interface1 header#titulo nav#menu ol li a{
+    font-family: 'Skranji', cursive;
+    color: #ffc000;
+    font-size: 18px;
+    font-weight: 400;
+    text-shadow: 0 1px 3px #000;
+    text-decoration: none;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+	width: 100%;
+}
+div#interface1 header#titulo nav#menu ol li:hover{
+	background: radial-gradient(circle, #e52b2b, #8b0000);
+  box-shadow: 0px 0 5px 5px rgba(255,255,255,0.2)
+}
+div#interface1 header#titulo nav#menu ol li:active{
+    background: radial-gradient(circle, #ec6a6a, #e52b2b);
+  box-shadow: 0px 0 5px 5px rgba(255,255,255,0.2)
+}
+/*-----------------------------------------------------------------------*/
+div#interface2{
+	display: inline-flex;
+	background-image: url('../imagens/dungeonwall.jpg');
+	background-repeat: initial;
+	background-size: 100%;
+	margin-left: 5%;
+	position: relative;
+	width: 90%;
+	border-top: 4px ridge #ffb000;
+    border-left: 4px groove #ffb000;
+    border-right: 4px ridge #ffb000;
+    border-bottom: 4px groove #ffb000;
+    box-shadow: inset 0px 0px 5px 3px rgba(1,1,1,0.3);
+
+}
+div#interface2 div#imagem{
+	width: 40%;	
+	padding: 1%;
+}
+
+div#interface2 div#imagem img{
+	width: 100%;
+	box-shadow: 2px 3px 20px black, 0 0 125px #8f5922;
+}
+div#interface2 section#meio{	
+	width: 50%;
+	margin: 2% auto;
+	box-shadow: 2px 3px 20px black, 0 0 125px #8f5922;
+	background-image: url('../imagens/pergaminho.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding: 5% auto;
+}
+
+div#interface2 section#meio fieldset#titulo{
+	border: 0px solid;
+	margin: 5% 5% 0% 5%;
+}
+div#interface2 section#meio fieldset#titulo legend{
+	font-family: 'Skranji', cursive;
+	font-size: 2vw;
+	text-align: center;
+}
+div#interface2 section#meio p{	
+	margin: 0.5% 5% 0.5% 5%;
+	font-size: 1.3vw;
+	text-align: justify;
+	text-indent: 2vw;
+	font-family: 'Dungeon', cursive;
+}
+div#interface2 section#meio p#fonte{
+    font-size: 0.8vw;
+}
+
+/*-----------------------------------------------------------------------*/
+div#interface3{
+	margin: 0px auto;
+	position: relative;
+	width: 100%;
+	height: 5vw;
+	bottom:0;
+	text-align: center;
+}
+div#interface3 footer#rodape p{
+	font-size: 1vw;
+	top: 10px; 
+	left: 33%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	white-space: pre-line;
+}

@@ -1,0 +1,63 @@
+
+  .section {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+	background-image: url('../imagens/dungeonwall.jpg');
+	background-repeat: initial;
+	background-size: 100% ;
+	margin-left: 5%;
+	width: 90%;
+	border-top: 4px ridge #ffb000;
+    border-left: 4px groove #ffb000;
+    border-right: 4px ridge #ffb000;
+    border-bottom: 4px groove #ffb000;
+    box-shadow: inset 0px 0px 5px 3px rgba(1,1,1,0.3);
+  }
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  .grid-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 350px));
+    grid-gap: 2vw 3vw;
+    justify-content: center;
+    align-items: baseline;
+  }
+  .grid-row .grid-item img{
+    width: 100%;
+    height: 300px;
+  }
+  .grid-row .grid-item span {
+    padding: 10px;
+    line-height: 1;
+  }
+  .grid-row .grid-item h3 {
+    font-family: 'Skranji', cursive;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .grid-row .grid-item p {
+    text-indent: 1vw;
+    text-align: justify;
+    font-family: 'Dungeon', cursive;
+  }
+  .grid-row .grid-item {
+    display: flex;
+    box-shadow: 2px 3px 20px black, 0 0 125px #8f5922;
+	background-image: url('../imagens/pergaminho.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding: 5% auto;
+    text-align: center;
+    font-family: sans-serif;
+    flex-direction: column-reverse;
+    align-items: stretch;
+    width: auto;
+    border-top: 4px ridge #1C1C1C;
+    border-left: 4px groove #1C1C1C;
+    border-right: 4px ridge #1C1C1C;
+    border-bottom: 4px groove #1C1C1C;
+    box-shadow: inset 0px 0px 5px 3px rgba(1,1,1,0.3);
+  }
+  

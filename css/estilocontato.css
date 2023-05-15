@@ -1,0 +1,31 @@
+div#interface2 section#meio{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+div#interface2 section#meio form#mensagem{
+	width:70%;
+    
+}
+div#interface2 section#meio form#mensagem p{
+	font-family: 'Dungeon', cursive;
+	font-size: 1vw;
+    text-align: left;
+    margin-bottom: 1.5vw;
+    text-indent: 1vw;
+}
+div#interface2 section#meio form#mensagem input{
+	font-family: 'Dungeon', cursive;
+	font-size:0.8vw;
+	background-color: rgba(255,255,255, 0.9);
+	width: 100%;
+}
+div#interface2 section#meio form#mensagem input#enviar{
+    width: 90%;
+    margin-left: 0%;
+}
+
+div#interface2 section#meio form#mensagem input:hover, select:hover {
+	background-color: rgb(255,255,255);
+}
